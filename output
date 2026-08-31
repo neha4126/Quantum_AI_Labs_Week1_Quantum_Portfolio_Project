@@ -1,0 +1,38 @@
+==================================================
+          VERIFYING: ORACLE 1 (CONSTANT)
+==================================================
+
+--- 1. Initial Qubit Probabilities (Post-Hadamard Superposition) ---
+Qubit 0: P(0) = 0.5000 | P(1) = 0.5000
+Qubit 1: P(0) = 0.5000 | P(1) = 0.5000
+Qubit 2: P(0) = 0.5000 | P(1) = 0.5000
+Qubit 3: P(0) = 0.5000 | P(1) = 0.5000
+
+--- 2. Modified Qubit Probabilities (Post-Interference & Measurement) ---
+Qubit 0: P(0) = 1.0000 | P(1) = 0.0000
+Qubit 1: P(0) = 1.0000 | P(1) = 0.0000
+Qubit 2: P(0) = 1.0000 | P(1) = 0.0000
+Qubit 3: P(0) = 1.0000 | P(1) = 0.0000
+
+Measured Bitstring Counts: {'0000': 1024}
+Algorithm Verdict: The function is Constant
+
+==================================================    
+          VERIFYING: ORACLE 2 (BALANCED)
+==================================================    
+
+--- 1. Initial Qubit Probabilities (Post-Hadamard Superposition) ---
+Qubit 0: P(0) = 0.5000 | P(1) = 0.5000
+Qubit 1: P(0) = 0.5000 | P(1) = 0.5000
+Qubit 2: P(0) = 0.5000 | P(1) = 0.5000
+Qubit 3: P(0) = 0.5000 | P(1) = 0.5000
+
+--- 2. Modified Qubit Probabilities (Post-Interference & Measurement) ---
+Qubit 0: P(0) = 0.0000 | P(1) = 1.0000
+Qubit 1: P(0) = 0.0000 | P(1) = 1.0000
+Qubit 2: P(0) = 0.0000 | P(1) = 1.0000
+Qubit 3: P(0) = 0.0000 | P(1) = 1.0000
+
+Measured Bitstring Counts: {'1111': 1024}
+Algorithm Verdict: The function is Balanced
+
